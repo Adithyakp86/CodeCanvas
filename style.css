@@ -198,6 +198,23 @@
             text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
         }
 
+        /* Typewriter effect styles */
+        #typewriter-heading {
+            white-space: nowrap;
+        }
+
+        /* Blinking cursor for typewriter effect */
+        .cursor {
+            animation: blink 1s infinite;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
+        }
+
         .hero p {
             font-size: 1.2rem;
             margin-bottom: 2rem;
