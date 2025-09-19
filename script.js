@@ -97,7 +97,7 @@ const sampleProjects = [
   title: 'Basic Calculator',
   description: 'A simple Basic Calculator built with HTML, CSS, and JavaScript. Perfect for beginners to practice web development fundamentals including building layouts, styling with CSS, and adding interactivity using JavaScript.',
   repoUrl: 'https://github.com/Varshitha713/CodeCanvas',
-  demoUrl: 'https://codepen.io/pen/',
+  demoUrl: 'demos/basic-calculator/',
   difficulty: 'beginner',
   upvotes: 18,
   hasDemo: true,
@@ -105,19 +105,7 @@ const sampleProjects = [
   previewImage: 'assets/Calculator.png',
   tags: ['HTML5', 'CSS3', 'JavaScript', 'ES6', 'Responsive']
   },
-  {
-  id: 9,
-  title: 'Unit Converter',
-  description: 'A simple and responsive unit converter that allows users to convert between length, weight, and temperature with real-time results.',
-  repoUrl: 'https://github.com/Bhavya0420/UnitConverter',
-  demoUrl: 'https://bhavya0420.github.io/UnitConverter/',
-  difficulty: 'intermediate',
-  upvotes: 20,
-  hasDemo: true,
-  hasReadme: true,
-  previewImage: 'assets/UnitConverter.png',
-  tags: ['HTML', 'CSS', 'JavaScript', 'Responsive']
-}
+  // Removed duplicate Unit Converter entry to resolve duplication on homepage
 
 ];
 
